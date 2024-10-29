@@ -1,1 +1,1 @@
-# CulturalVTOCSE496
+# camera_kit_demo
