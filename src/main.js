@@ -57,7 +57,7 @@ import {
             });
 
             await session.setSource(source)
-            session.source.setRenderSize(500, 800)
+            session.source.setRenderSize(1000, 800)
             session.play()
         };
         await startCamera('user', 'front')
