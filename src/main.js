@@ -36,7 +36,7 @@ import {
         const session = await cameraKit.createSession()
         document.getElementById('canvas').replaceWith(session.output.live)
 
-        const { lenses } = await cameraKit.lensRepository.loadLensGroups(['10715257-0fb4-4e6d-96a6-62185e12e129'])
+        const { lenses } = await cameraKit.lensRepository.loadLensGroups(['a6eb2979-3850-444d-8464-278edb51156d'])
 
         session.applyLens(lenses[0])
 
@@ -78,16 +78,6 @@ import {
         document.getElementById('RedTShirt').addEventListener('click', () => {
             session.applyLens(lenses[0]);
             currentLens = 0;
-        });
-
-        document.getElementById('GreyTShirt').addEventListener('click', () => {
-            session.applyLens(lenses[2]);
-            currentLens = 2;
-        });
-
-        document.getElementById('WhiteTShirt').addEventListener('click', () => {
-            session.applyLens(lenses[1]);
-            currentLens = 1;
         });
     }
 
