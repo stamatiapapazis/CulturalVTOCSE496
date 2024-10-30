@@ -12,12 +12,12 @@ import {
 
     const path = window.location.pathname;
     if (path === '/') {
-        document.getElementById('CivilWarCoatButton').addEventListener('click', () => {
-            window.location.href = '/CivilWarCoat.html';
+        document.getElementById('CavalryJacketButton').addEventListener('click', () => {
+            window.location.href = '/CavalryJacket.html';
         });
     }
 
-    else if (path === '/civilwarcoat') {
+    else if (path === '/cavalryjacket') {
 
         document.getElementById('BackHomeButton').addEventListener('click', () => {
             window.location.href = '/';
